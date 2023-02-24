@@ -1,0 +1,19 @@
+body {
+    font-family: Helvetica;
+}
+
+li > * {
+    margin: 2px;
+}
+
+input[type="text"] {
+    width: 20em;
+}
+
+ul {
+    list-style: none;
+}
+
+input[type="checkbox"]:checked + input[type="text"] {
+    background-color: gray;
+}
